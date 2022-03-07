@@ -11,9 +11,9 @@ let decompteMoyen = 0;
      tab.push(age)
 
     console.log(tab)
-if(age <= 20){
+if(age < 20){
     decompteJeune++
-}else if(age >= 40){
+}else if(age > 40){
     decompteVieu++
 }else{
     decompteMoyen++
