@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <title>Jarditou</title>
+</head>
+
+ <body>
+  <header>
+    <img src="img/jarditou_logo.jpg" title="logo" height="100" width="300">
+    <p>La qualité depuis 70 ans</p>
+    </header>
+  <nav>
+    <ul>
+      <li><a href="index.html" title="acceuil">Acceuil</a></li>
+      <li><a href="contact.html" title="contact">Contact</a></li>
+      <li><a href="tableau.html" title="tableau">tableau</a></li>
+    </ul>
+  </nav>
+  <hr>
+  <img src="img/promotion.jpg" alt="image promotion" height="365">
+  <p>Vos coordonnées</p>
+  <!--Formulaire-->
+  <form action="http://bienvu.net/script.php" method="post" id="myForm">
+    <label for="nom">Votre nom*</label><input type="text" name="nom" id="nom"> <br><div id="errorName"></div>
+    <label for="prénom">Votre prénom*</label><input type="text" name="prénom" id="prenom"><br><div id="errorPrenom"></div>
+    <br>
+    <div id="sexe">Sexe*<input type="radio" name="Sexe" value="Femme" id="femme"> Féminin<input type="radio" name="Sexe" value="Homme" id="homme"> Masculin</div> <div id ="errorRadio"></div>
+    <br>
+    <br>
+    <label for="date">Date de naissance* :</label><input type="date" name="ddn" id="DateNaissance"><br><div id="errorDateNaissance"></div>   
+    <label for="adresse">Adresse :</label><input type="text" name="Adresse" value="" id='adresse'><br><div id="errorAdresse"></div>
+    <label for="ville">Ville :</label><input type="text" name=Adresse value="" id="ville"><br><div id="errorVille"></div>
+    <label for="Email">Email* :</label><input type="text" name=Email placeholder="dave.loper@afpa.fr" id="mail"><br><div id="errorMail"></div>
+    <br>
+    <p>Votre demande</p>
+    <!--Menu deroulant-->
+    <label for="demande" id="sujet">Sujet* :</label>
+    <input id="demande"/>
+    <div id="sujetError"></div>
+    <select id="sujets">
+      
+      <option value="Sujet" selected hidden>Selectionnez un sujet</option>
+      <option value="commandes">Mes commandes</option>
+      <option value="Question">Questions sur un produit</option>
+      <option value="reclamation">Réclamations</option>
+      <option value="autres">Autres</option>
+      
+      
+    </select><br>
+    <!--zone de texte-->
+    Votre question*: <textarea name="question" id="question"></textarea><br><div id="questionError"></div>
+    <!--case a coché -->
+    <input type="checkbox" name="validation" value="valide" id="checkBox"> * J'accepte le traitement informatique de ce formulaire <div id="errorCheckbox"></div>
+    <br>
+    <input type="submit" value="Envoyer"><input type="reset" value="Annuler">
+    <hr>
+  </form>
+  <footer>
+    <ul>
+      <li><a href="" title="mention legales">Mention légales</a></li>
+      <li><a href="" title="Horaires">Horaires</a></li>
+      <li><a href="" title="Plan du site">Plan du site</a></li>
+    </ul>
+  </footer>
+  <script src="/Jarditou_css/assets/js/script.js"></script>
+ </body>
+</html>

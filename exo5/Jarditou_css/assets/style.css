@@ -1,0 +1,32 @@
+#Nav{
+    background-color: black;
+    height: 50px;
+    display:flex;
+    margin-bottom: 10px;
+    padding: 2px 20px;
+    width: auto;
+}
+a{
+    color: rgb(255, 255, 255);
+}
+.jardin{
+   text-align: center;
+   margin-top: -30px;
+   font-size: x-large;
+}
+#MentionLegales{
+    background-color: black;
+    padding: 30px 20px ;
+    width: auto;
+}
+#block{
+    margin-left: 1500px;
+    width: 388px;
+    background-color: rgb(175, 172, 172);
+    height: 420px;
+    position: absolute;
+    
+}
+#promo{
+    width: 1887px;
+}
